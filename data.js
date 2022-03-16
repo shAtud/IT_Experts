@@ -11,7 +11,7 @@ const membersData = [
       url : '/78.png',
       fullName :'DEBZA Houda',
       Email : 'h.debza@esi-sba.dz',
-      propo :'',
+      propo :"Je suis une Fullstack web developpeuse , qui ce base sur une seule equation dans la vie :dedication + travail serieux et consistant = success la satisfaction de mes client n est pas sur un choix pour moi c est un principe sacree",
       bio :'',
       number :'0123456789'
     },
