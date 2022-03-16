@@ -78,6 +78,7 @@ const Navbar = ({open,setOpen,footerRef}) =>{
                                   <Link to={'profil'+index} spy={true} smooth={true}>  <div 
                                         className="flex w-full h-[40px]  space-x-4 items-center font-fontom px-1  bg-[#FAFBFF] hover:bg-[#5b4cfcc2] cursor-pointer "
                                         onClick={(e)=>setOpen(false)}
+                                        key={index}
                                     
                                     >
                                         <img 
