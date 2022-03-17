@@ -101,12 +101,14 @@ const Navbar = ({open,setOpen,footerRef}) =>{
                 className='w-10 h-10 text-[#5C4CFC] hover:cursor-pointer hover:opacity-80 transition-colors ease-in' 
             />
             </Link>
+              <Link to='services_section' spy={true} smooth={true}> 
+            <SearchIcon 
+                className='w-10 h-10 text-[#5C4CFC] hover:cursor-pointer hover:opacity-80 transition-colors ease-in' 
+            />
+            </Link>
             <ProfilIcon 
                 className='w-10 h-10 text-[#5C4CFC] hover:cursor-pointer hover:opacity-80 transition-colors ease-in' 
                 onClick={handleProfilClick}
-            />
-            <SearchIcon 
-                className='w-10 h-10 text-[#5C4CFC] hover:cursor-pointer hover:opacity-80 transition-colors ease-in' 
             />
                <Link to='contact_section' spy={true} smooth={true}> 
             < ContactIcon 
