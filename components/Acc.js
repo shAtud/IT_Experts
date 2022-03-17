@@ -5,7 +5,7 @@ const Acc = props =>{
             <div className="mix-blend-darken lg:basis-2/3 flex items-center justify-center">
                 <img src='/acc.jpg' className='object-contain h-[700px] w-full'/>
             </div>
-            <div className="w-[380px]  h-[650px]  min-w-[380px] bg-white shadow-xl rounded-[25px] my-12 mx-12 relative font-fontom">
+            <div className="lg:w-[450px] lg:max-w-[450px] max-w-min min-w-[420px] h-[600px] bg-white shadow-xl rounded-[25px] my-12 mx-12 relative font-fontom">
                 <div className='rotate-[15deg] absolute h-full w-full items-center justify-center'>
                     <img src='/acc2.png' className='object-contain h-full w-full' />
                 </div>
@@ -18,7 +18,7 @@ const Acc = props =>{
                 <div className='text-[25px] text-center mx-4 mt-2 mb-16'>
               {"  Bienvenu dans votre entreprise IT Experts , une entreprise spécialisé dans la creation de tout ce qui est web et application de l’etape conception jusqu’au site repondant à vos besoin."}
                 </div>
-                <button className='h-[40] w-[110px] text-[25px] bg-[#D881F4] text-white rounded-full ml-20 mr-8'>Contact</button>
+                <button className='h-[40] w-[110px] text-[25px] bg-[#D881F4] text-white rounded-full lg:ml-28 ml-20 mr-8'>Contact</button>
                 <button className='h-[40] w-[110px] text-[25px] bg-[#5C4CFC] text-white rounded-full'>Service</button>
             </div>
         </div>

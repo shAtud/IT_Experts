@@ -17,7 +17,7 @@ const Ser = props =>{
         ]
 
     return(
-        <div className='h-full pb-32 w-full md:w-[100%] font-fontom bg-[#F7FAFB]'>
+        <div className='lg:h-[100vh] h-full pb-32 w-full md:w-[100%] font-fontom bg-[#F7FAFB]'>
           <div className='pt-16 ml-12 text-6xl mb-28 text-[#5C4CFC]'>Services</div>
             <div className="gap-24 flex flex-row flex-wrap place-items-center justify-center">
                     {comp.map((el,index)=>{
