@@ -8,14 +8,14 @@ const MemberDes =(props) =>{
           {membersData.map((ele,index)=>{
             return(
               <div 
-                className={`flex items-center justify-center h-full w-[100vw] ${index %2 ===0 ?'flex-row':'flex-row-reverse'}`}
+                className={`flex items-center justify-center h-full w-[100%] ${index %2 ===0 ?'flex-row':'flex-row-reverse'}`}
                 key={index}
                 id={'profil'+index}
                 >
               <div className='lg:flex hidden'>
                 <img src='/mem.png' height={430} width={650} className='object-contain'/>
               </div>
-              <div className='relative mx-24 my-20 h-[525px] w-[400px] min-w-[400px] rounded-[15px] shadow-white shadow-2xl bg-white flex flex-col'>
+              <div className='relative mx-24 my-20 h-[525px] w-[380px] min-w-[380px] rounded-[15px] shadow-white shadow-2xl bg-white flex flex-col'>
                     <div className='flex flex-row space-x-6 mt-6 ml-6'>
                       <div className=''>
                         <img src={ele.url} height={75} width={75} className='object-contain'/>

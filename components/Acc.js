@@ -1,11 +1,11 @@
 import Image from 'next/image';
 const Acc = props =>{
     return(
-        <div className="flex lg:flex-row flex-col lg:h-[100vh] w-full sm:w-[100vw] bg-[#F7FAFB] h-full justify-center items-center">
+        <div className="flex lg:flex-row flex-col lg:h-[100vh] w-full sm:w-[100%] bg-[#F7FAFB] h-full justify-center items-center">
             <div className="mix-blend-darken">
                 <img src='/acc.jpg' className='object-contain h-[541px] w-[811px]'/>
             </div>
-            <div className="w-[420px] h-[560px] min-w-[420px] bg-white shadow-xl rounded-[25px] my-12 mx-12 relative font-fontom">
+            <div className="w-[380px] h-[560px] min-w-[380px] bg-white shadow-xl rounded-[25px] my-12 mx-12 relative font-fontom">
                 <div className='rotate-[15deg] absolute h-full w-full items-center justify-center'>
                     <img src='/acc2.png' className='object-contain h-full w-full' />
                 </div>

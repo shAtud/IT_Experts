@@ -65,7 +65,7 @@ const Navbar = ({open,setOpen,footerRef}) =>{
       }
  
     return(
-        <div className = {` ${hidden?'opacity-0 ':'opacity-100 '}  transition-colors duration-700 flex justify-center fixed bg-[#FAFBFF] shadow-lg backdrop-blur-[8px] w-[300px] h-[60px] bottom-[10px] left-[50vw] translate-x-[-50%] rounded-[30px]  z-50 items-center space-x-4  `}
+        <div className = {` ${hidden?'opacity-0 ':'opacity-100 '}  transition-colors duration-700 flex justify-center fixed bg-[#FAFBFF] shadow-lg backdrop-blur-[8px] w-[300px] h-[60px] bottom-[10px] left-[50%] translate-x-[-50%] rounded-[30px]  z-50 items-center space-x-4  `}
        
         >
             <div 

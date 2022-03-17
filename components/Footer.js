@@ -1,7 +1,7 @@
 import Image from 'next/image'
 const Footer = ({footerRef}) =>{
     return(
-        <div ref={footerRef} className='py-4 h-full w-[100vw] bg-[#968CFF] flex flex-col-reverse space-y-10 lg:space-y-0 lg:flex-row-reverse text-white font-fontom'>
+        <div ref={footerRef} className='py-4 h-full w-[100%] bg-[#968CFF] flex flex-col-reverse space-y-10 lg:space-y-0 lg:flex-row-reverse text-white font-fontom'>
          <div className='flex flex-col basis-3/5 text-[28px] space-y-3 justify-center place-items-end mr-10'>
           <div className='flex flex-row flex-wrap space-x-20'>
               <a>Acceuil</a>

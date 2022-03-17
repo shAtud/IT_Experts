@@ -1,7 +1,7 @@
 const Devgrp = props =>{
     return(
-        <div className='h-full w-[100vw] font-fontom'>
-        <div className='pt-6 text-[#5C4CFC] text-[70px] w-[100vw] text-center'>IT Projet : PFE</div>
+        <div className='h-full w-[100%] font-fontom'>
+        <div className='pt-6 text-[#5C4CFC] text-[70px] w-[100%] text-center'>IT Projet : PFE</div>
         <div className='flex lg:flex-row flex-col text-[30px] '>
           <div className='basis-1/2 w-[350px] h-[365px] min-w-[350px] bg-white/80 shadow-xl rounded-xl backdrop-blur-md mt-16 mx-16'>
         </div>

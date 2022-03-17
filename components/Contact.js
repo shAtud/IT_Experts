@@ -1,6 +1,6 @@
 const Contact = ({id}) =>{
     return(
-        <div id={id} className='h-full bg-[#F7FAFB] w-[100vw] flex flex-col-reverse lg:flex-row font-fontom md:pb-36 pb-16 items-center justify-center'>
+        <div id={id} className='h-full bg-[#F7FAFB] w-[100%] flex flex-col-reverse lg:flex-row font-fontom md:pb-36 pb-16 items-center justify-center'>
         <div className='flex flex-col basis-2/3 items-center justify-center '>
           <div className='pt-16 ml-12 text-6xl mb-28 text-[#5C4CFC]'>Contactez-nous :</div>
           <div className='flex flex-col-reverse lg:flex-row font-fontom md:pb-36 pb-16 items-center justify-center'>
