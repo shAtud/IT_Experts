@@ -18,7 +18,7 @@ const MemberDes =(props) =>{
               <div className='relative mx-24 my-20 h-[600px] lg:w-[500px] lg:max-w-[500px] max-w-min min-w-[390px] rounded-[15px] shadow-white shadow-2xl bg-white flex flex-col basis-1/3 items-center justify-center'>
                     <div className='flex flex-row space-x-6 mt-6 ml-6'>
                       <div className=''>
-                        <img src={ele.url} height={75} width={75} className='object-contain'/>
+                        <img src={ele.url} height={75} width={75} className='rounded-full'/>
                       </div>
                     <div className='flex flex-col'>
                       <div className='text-[#5C4CFC] pr-10 text-[38px]'>{ele.fullName}</div>
