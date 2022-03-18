@@ -37,17 +37,13 @@ const Navbar = ({open,setOpen,footerRef}) =>{
             
         },[ref,open])
     const listenToScroll = e=>{
-        const getOffset = (element) => {
-            const rect = element?.getBoundingClientRect(),
-              scrollTop = 
-                window.pageYOffset ||  document.documentElement.scrollTop;
-            return rect.top + scrollTop -500;
-          };
-        let heightToHideFrom = getOffset(footerRef.current);
-        const winScroll = document.body.scrollTop || 
-            document.documentElement.scrollTop;
+       
+        const heightToHideFrom = document.body.offsetHeight- footerRef.current.getBoundingClientRect().height;
+        const winScroll = 
+        window.pageYOffset ||  document.documentElement.scrollTop;
+    console.log(winScroll+window.innerHeight,heightToHideFrom)
            
-        if (winScroll > heightToHideFrom) { 
+        if (winScroll+window.innerHeight > heightToHideFrom) { 
            !hidden &&      // to limit setting state only the first time         
              setHidden(true);
         } else {
