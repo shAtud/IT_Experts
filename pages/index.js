@@ -18,7 +18,7 @@ export default function Home() {
 
     <div 
       id='home_section' 
-      className='bg-[#F7FAFB] min-h-screen w-[100vw] min-w-min relative flex flex-col space-y-2'
+      className='bg-[#F7FAFB] min-h-screen w-[100vw] min-w-min flex flex-col'
     >
       <Navbar open={open} setOpen={setOpen} footerRef={footerRef}/>
       <Acc/>
