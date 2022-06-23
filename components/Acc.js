@@ -4,7 +4,7 @@ const Acc = props =>{
         <div className="flex lg:flex-row flex-col lg:h-[100vh] w-full sm:w-[100vw] bg-[#F7FAFB] h-full justify-center items-center"> 
             <img src='/acc.jpg' className='object-contain h-[700px] w-full mix-blend-darken lg:basis-2/3 flex items-center justify-center'/>
             <div className="lg:w-[450px] lg:max-w-[450px] max-w-min min-w-[420px] h-fit py-8 bg-white shadow-xl rounded-[25px] my-12 mx-12 relative font-fontom">
-                <img src='/acc2.png' className='object-contain h-full w-full rotate-[15deg] absolute items-center justify-center' />
+                <img src='/acc2.png' className='object-contain w-full rotate-[15deg] absolute items-center justify-center' />
                 <div className='flex flex-col space-y-4 text-center mx-8'>
                     <div className='text-[55px] text-[#5C4CFC]'>
                     IT Experts
